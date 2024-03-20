@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+    font-size: 62.5%;
+}
+.sections{
+    width: 100%; 
+    height: 100vh;
+}
+/*Seccion header (Start)*/
+header{
+    width: 1000%;
+    height: 60px;
+    background: rgba(255, 0, 0, 0.747);
+
+    position: fixed;
+}
+/*Seccion header (end)*/
+
+/*Seccion first (Start)*/
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url('../data/img/first/gradient.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+}
+.tittle-section-first{
+    
+}
+.imagen-section-first{
+    width: 100%;
+    height: 60vh;
+    background-image: url('../data/img/first/peaple.png');
+    background-size: cover;
+    background-position: center;
+}
+/*Seccion first (end)*/
+
+/*Seccion second(Start)*/
+.second{
+    background: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hashtag{
+    display: flex;
+    background: yellow;
+    padding: 4px;
+}
+.about{
+    display: flex;
+    width: 80%;
+    height: 100vh;
+}
+/*Seccion second(end)*/
+
+/*Seccion third (Start)*/
+.third{
+    background: rgb(135, 235, 205);
+    display: flex;
+    justify-content: center;
+}
+.contact-me{
+    background: slateblue;
+    padding: 4px;
+}
+.whats-app{
+    padding: 4px;
+    background: yellowgreen;
+}
+/*Seccion third (end)*/
