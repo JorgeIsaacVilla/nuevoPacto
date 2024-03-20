@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuevo Pacto</title>
+    <link rel="stylesheet" href="./styles/text-color.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header>
-        <div class="logo">logo</div>
-        <div class="menu-items"></div>
+        <img class="logo" src="./data/img/icons/logo.png">
+        <div class="menu-items">
+            <ul>
+                <li>Inicio</li>
+                <li>Quiénes somos</li>
+                <li>Visión</li>
+                <li>Eventos</li>
+                <li>Oración</li>
+                <li>Contáctanos</li>
+            </ul>
+        </div>
     </header>
     
-    <div class="sections first">
-        <div class="tittle-section-first">
-            <h2>Que todos sepan que ustedes son</h2>
-            <h1>amigables y gentiles</h1>
+    <section class="sections first">
+        <div class="tittle-section-first-box">
+            <h2 class="tittle-section-first-one">Que todos sepan que ustedes son</h2>
+            <h1 class="tittle-section-first-two">amigables y gentiles</h1>
         </div>
-        <div class="imagen-section-first"></div>
-    </div>
+    </section>
+    <!--realizar un script efecto glich sobre la imagen de fondo-->
 
-    <div class="sections second">
+    <section class="sections second">
         <div class="hashtag">
             <p class="text_hashtag">#NUEVOPACTOCC</p>
             <p class="text_hashtag">#NUEVOPACTOCC</p>
@@ -31,19 +42,19 @@
             <div class="texts">
                 <h2 class="tittle-one-section-second">Quiénes</h2>
                 <h2 class="tittle-two-section-second">somos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde itaque sit mollitia magni sequi ea voluptatibus accusamus ipsa, dolor quasi, doloremque alias numquam nesciunt dolorem velit temporibus perspiciatis fugiat aliquam.</p>
+                <p class="section-second-about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde itaque sit mollitia magni sequi ea voluptatibus accusamus ipsa, dolor quasi, doloremque alias numquam nesciunt dolorem velit temporibus perspiciatis fugiat aliquam.</p>
             </div>
-            <img src="" alt="imagen de Vivian">
+            <img src="./data/img/second/2.png" alt="imagen de pastora">
         </div>
-    </div>
+    </section>
 
-    <div class="sections third">
+    <section class="sections third">
         <div class="about">
-            <img src="" alt="imagen de Jesús Paes">
+            <img src="./data/img/three/2.png" alt="imagen de pastor">
             <div class="texts">
                 <h2 class="tittle-one-section-third">Nuestra</h2>
                 <h2 class="tittle-two-section-third">Visión</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde itaque sit mollitia magni sequi ea voluptatibus accusamus ipsa, dolor quasi, doloremque alias numquam nesciunt dolorem velit temporibus perspiciatis fugiat aliquam.</p>
+                <p class="section-third-vision-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde itaque sit mollitia magni sequi ea voluptatibus accusamus ipsa, dolor quasi, doloremque alias numquam nesciunt dolorem velit temporibus perspiciatis fugiat aliquam.</p>
 
                 <div class="contact-box">
                     <a class="contact-me">Contáctanos</a>
@@ -51,23 +62,48 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="sections fourth">
+    <section class="sections fourth">
         <div class="tittles-section-fourth">
             <h2 class="tittles-one-section-fourth">Próximos</h2>
             <h2 class="tittles-two-section-fourth">eventos</h2>
         </div>
         <div class="box-events">
-            <div>evento 1</div>
-            <div>evento 2</div>
-            <div>evento 3</div>
+            <div class="box-events-descriptions">
+                <div class="box-data-event">
+                    <img src="" alt="imagen icono de calendario">
+                    <p>Reunión de mujeres</p>
+                    <p>30 de marzo, 8:00 am</p>
+                </div>
+                <p>Heridas Sanadoras</p>
+            </div>
+            <div class="box-events-descriptions">
+                <div class="box-data-event">
+                    <img src="" alt="imagen icono de calendario">
+                    <p>Reunión de mujeres</p>
+                    <p>30 de marzo, 8:00 am</p>
+                </div>
+                <p>Heridas Sanadoras</p>
+            </div>
+            <div class="box-events-descriptions">
+                <div class="box-data-event">
+                    <img src="" alt="imagen icono de calendario">
+                    <p>Reunión de mujeres</p>
+                    <p>30 de marzo, 8:00 am</p>
+                </div>
+                <p>Heridas Sanadoras</p>
+            </div>
             <!--realizar un script con un arreglo de eventos y que se escrolee de manera automatica en hacia arriba-->
         </div>
         <div class="box-historys">
             <div class="history">
                 <h2 class="section-fourth-tittle-history">Historias recientes</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a class="social-box-fourth">
+                    <img src="" alt="icono de instagram">
+                    <p>Síguenos en Instagram</p>
+                </a>
             </div>
             <div class="photos">
                 <div class="member-image">
@@ -75,51 +111,66 @@
                     <p>Lorem ipsum</p>
                 </div>
                 <div class="member-image">
-                    <img src="" alt="miembro 1">
+                    <img src="" alt="miembro 2">
                     <p>Lorem ipsum</p>
                 </div>
                 <div class="member-image">
-                    <img src="" alt="miembro 1">
+                    <img src="" alt="miembro 3">
                     <p>Lorem ipsum</p>
                 </div>
                 <div class="member-image">
-                    <img src="" alt="miembro 1">
+                    <img src="" alt="miembro 4">
                     <p>Lorem ipsum</p>
                 </div>
             </div>
             <!--realizar un script con un arreglo de eventos y que se escrolee de manera automatica en hacia la derecha-->
         </div>
-    </div>
+    </section>
 
-    <div class="sections fifth">
+    <section class="sections fifth">
         <div class="section-fifth-text">
             <div class="section-fifth-tittles">
-                <h2>Peticiones de</h2>
+                <h3>Peticiones de</h3>
                 <h2>oración</h2>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat omnis itaque, voluptate in molestiae, iure blanditiis maxime aperiam, tempore at amet suscipit laborum fuga veritatis deserunt! Quia, iusto alias. Voluptate.</p>
         </div>
-        <div class="contact-box">
-            <a class="contact-me">Contáctanos</a>
-            <a class="whats-app">Grupo de whatsApp</a>
+        <div class="contact-box-fifth">
+            <a class="contact-me-fifth">Contáctanos</a>
+            <a class="whats-app-fifth">Grupo de whatsApp</a>
         </div>
-        <div class="section-fifth-image"></div>
-    </div>
+        <img class="section-fifth-image" img src="./data/img/five/2.png" alt="imagen de biblia">
+    </section>
 
-    <footer>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div>
-            <p>Nuevo Pacto. Todos los derechos reservados</p>
-            <div>
-                <div>logo facebook</div>
-                <div>logo instagram</div>
-                <p>Nuevopactocc</p>
+    <footer class="footer-one">
+        <div class="section-footer-top">
+            <div class="message-footer">
+                <img src="./data/img/footer/2.png" alt="logo nuevo pacto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
+            <div class="footer-navegate">
+                <a href="">Inicio</a>
+                <a href="">Quiénes somos</a>
+                <a href="">Visión</a>
+            </div>
+            <div class="footer-navegate">
+                <a href="">Eventos</a>
+                <a href="">Oración</a>
+                <a href="">Contactanos</a>
+            </div>  
+            <div class="footer-navegate">
+                <a href=""><img src="" alt="icono ubicación">Lorem Imspum</a>
+                <a href=""><img src="" alt="icono reloj">Lorem Imspum</a>
+                <a href=""><img src="" alt="icono telefono">Lorem Imspum</a>
+            </div> 
+        </div>
+    </footer>
+    <footer class="footer-two">
+        <p>Nuevo Pacto. Todos los derechos reservados</p>
+        <div class="box-footer-two">
+            <a>logo facebook</a>
+            <a>logo instagram</a>
+            <p>Nuevopactocc</p>
         </div>
     </footer>
 </body>

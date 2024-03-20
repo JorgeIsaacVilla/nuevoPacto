@@ -1,0 +1,31 @@
+:root{
+    --size-one:4.9rem;
+    --size-two:8.3rem;
+    --size-three:1.5rem;
+    --size-fourth:3.4rem;
+    --size-five:5.8rem;
+    --size-six:1.8rem;
+
+    --color-one:#636363;
+    --color-two:#0BB2E6;
+    --color-three:#FFFFFF;
+    --color-fourth:#9AD2E5;
+
+    --border-color-one:#FFFF;
+    --border-color-two:#0BB2E6;
+    --border-color-three:#6363639a;   
+
+    --border-radius-button:4px;
+    --padding-buttons:8px 16px;
+    --padding-buttons-two:8px 30px;
+
+
+    /*mobile  (start)*/
+    /*mobile  (end)*/
+
+    /*tablet  (start)*/
+    /*tablet  (end)*/
+
+    /*desck  (start)*/
+    /*desck  (end)*/
+}
