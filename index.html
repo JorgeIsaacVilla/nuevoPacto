@@ -7,12 +7,20 @@
     <link rel="stylesheet" href="./styles/text-color.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/style.css">
+
+    <link rel="stylesheet" href="./styles/styleDesk.css" media="screen and (max-width: 1200px)">
+    <link rel="stylesheet" href="./styles/styleTablet.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="./styles/styleMovile.css" media="screen and (max-width: 600px)">
 </head>
 <body>
     <header>
         <img class="logo" src="./data/img/icons/logo.png">
         <div class="menu-items">
-            <ul>
+            <ul class="list-menu display-none">
+                <div class="header-menu">
+                    <img class="logo" src="./data/img/icons/logo.png">
+                    <div class="menu-items-off"></div>
+                </div>
                 <li>Inicio</li>
                 <li>Quiénes somos</li>
                 <li>Visión</li>
@@ -22,21 +30,29 @@
             </ul>
         </div>
     </header>
-    
-    <section class="sections first">
+
+    <script src="./scripts/scriptHeader.js"></script>
+
+    <section class="sections first ">
         <div class="tittle-section-first-box">
             <h2 class="tittle-section-first-one">Que todos sepan que ustedes son</h2>
             <h1 class="tittle-section-first-two">amigables y gentiles</h1>
         </div>
+        <video id="myVideo" autoplay loop>
+            <source src="" type="video/mp4">
+            Tu navegador no admite el elemento de video.
+        </video>
     </section>
-    <!--realizar un script efecto glich sobre la imagen de fondo-->
 
+    <script src="./scripts/scriptFirst.js"></script>
+    
     <section class="sections second">
         <div class="hashtag">
             <p class="text_hashtag">#NUEVOPACTOCC</p>
             <p class="text_hashtag">#NUEVOPACTOCC</p>
             <p class="text_hashtag">#NUEVOPACTOCC</p>
             <p class="text_hashtag">#NUEVOPACTOCC</p>
+            <!-- hacer blucle como el de monastery-->
         </div>
         <div class="about">
             <div class="texts">
@@ -48,6 +64,7 @@
         </div>
     </section>
 
+<!--
     <section class="sections third">
         <div class="about">
             <img src="./data/img/three/2.png" alt="imagen de pastor">
@@ -63,7 +80,8 @@
             </div>
         </div>
     </section>
-
+-->
+<!--
     <section class="sections fourth">
         <div class="tittles-section-fourth">
             <h2 class="tittles-one-section-fourth">Próximos</h2>
@@ -94,7 +112,9 @@
                 </div>
                 <p>Heridas Sanadoras</p>
             </div>
-            <!--realizar un script con un arreglo de eventos y que se escrolee de manera automatica en hacia arriba-->
+            realizar un script con un arreglo de eventos y que se escrolee de manera automatica en hacia arriba
+-->
+<!--
         </div>
         <div class="box-historys">
             <div class="history">
@@ -123,10 +143,11 @@
                     <p>Lorem ipsum</p>
                 </div>
             </div>
-            <!--realizar un script con un arreglo de eventos y que se escrolee de manera automatica en hacia la derecha-->
+            realizar un script con un arreglo de eventos y que se escrolee de manera automatica en hacia la derecha
         </div>
     </section>
-
+-->
+<!--
     <section class="sections fifth">
         <div class="section-fifth-text">
             <div class="section-fifth-tittles">
@@ -173,5 +194,6 @@
             <p>Nuevopactocc</p>
         </div>
     </footer>
+-->
 </body>
 </html>

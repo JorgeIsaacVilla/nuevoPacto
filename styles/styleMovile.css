@@ -1,0 +1,111 @@
+@media (max-width: 600px){
+/*Seccion header (Start)*/
+    header{
+        justify-content: space-around;
+        border: none; 
+    }
+    .header-menu{
+        width: 80%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .logo{
+            width: 160px;
+            height: 50px;
+        }
+    .menu-items{
+        background-image: url('../data/img/icons/menu-on.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+    }
+    .menu-items-off{
+        background-image: url('../data/img/icons/menu-off.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 35px;
+        height: 35px;
+    }
+    .list-menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        width: 98%;
+        height: 100vh;
+        z-index: 100;
+
+
+background: rgba(255, 255, 255, 0.897);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
+        
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 34px;
+        padding-left: 34px;
+        padding-right: 34px;        
+    }
+    .list-menu li{
+        font-size: var(--size-six);
+    }
+    .display-none {
+        display: none;
+    }
+    /*Seccion header (end)*/
+
+    /*Seccion first (Start)*/
+    .first{
+        background-image: url('../data/img/first/1m.png');
+        background-size:cover;
+    }
+    .tittle-section-first-one{
+        font-size: var(--size-one-movile);
+    }
+    .tittle-section-first-two{
+        font-size: var(--size-two-movile);
+    }
+
+    .tittle-section-first-box{
+        text-align: center;
+        
+        margin-top: 150px;
+    }
+    /*Seccion first (end)*/
+
+    /*Seccion second(Start)*/
+    .second{
+        background-size:cover;
+        background-position: center;
+    }
+    .hashtag{
+        margin-top: 30px;
+        margin-bottom: 60px;
+        width: 100%;
+        border-radius: 0;
+    }
+    .about{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .tittle-one-section-second{
+        margin-left: 36px;
+    }
+    .texts{
+        text-align: center;
+    }
+    .section-second-about-text{
+        margin-top: 64px;
+    }
+    /*Seccion second(End)*/
+}
