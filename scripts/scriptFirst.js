@@ -13,4 +13,16 @@ if (isMobile) {
   video.src = videoURLMobile;
 } else {
   video.src = videoURLDesktop;
+  
 }
+// Reiniciar el video cuando haya terminado
+video.addEventListener('ended', function() {
+  this.currentTime = 0; // Reiniciar el tiempo de reproducción del video
+  this.play(); // Volver a reproducir el video
+}, false);
+
+//reproducir el video al tocar la pantalla
+document.addEventListener('touchstart', function() {
+  // Reproducir el video
+  video.play();
+});

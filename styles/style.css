@@ -77,7 +77,7 @@ header{
     mix-blend-mode: lighten ;
 
     position: absolute;
-    top: 75px;
+    top: 0px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -238,9 +238,22 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    overflow: scroll;
 }
 .box-data-event{
     display: flex;
+}
+.event-name{
+    display: flex;
+}
+.event-name p{
+    width: 210px;
+}
+.date-event{
+    margin-top:16px ;
+    width: 100%;
+    margin-left: 32px;
 }
 .box-data-event img{
     margin-right: 8px;
@@ -292,10 +305,12 @@ header{
 .social-box-fourth{
     margin-top: 16px;
     display: flex;
+    margin-bottom: 32px;
 }
 .social-box-fourth img{
     width: 25px;
     height: 25px;
+    margin-right: 6px;
 }
 .social-box-fourth p{
     font-size: var(--size-six);
