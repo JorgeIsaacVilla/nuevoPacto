@@ -116,6 +116,7 @@ backdrop-filter: blur(9px);
         text-align: center;
     }
     .section-second-about-text{
+        width: 100%;
         margin-top: 32px;
         margin-bottom: 16px;
     }
@@ -151,6 +152,10 @@ backdrop-filter: blur(9px);
         width: auto;
         max-width: 5000px;
         
+    }
+    .section-third-vision-text{
+        width: 100%;
+        margin-left: 0;
     }
     .contact-me{
         margin-left: 0;
@@ -311,6 +316,7 @@ backdrop-filter: blur(9px);
         width: 90%;
     }
     .box-footer-two{
+        justify-content:left;
         margin-bottom: 16px;
     }
     .box-footer-two a{

@@ -1,5 +1,95 @@
 @media (max-width: 992px){
-/*body{
-    background: red;
-}*/
+    /*Seccion header (Start)*/
+    .header-menu{
+        display: none;
+    }
+    /*Seccion header (End)*/
+    /*Seccion first (Start)*/
+    .first{
+        background-size:cover;
+    }
+    
+    .tittle-section-first-one{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .tittle-section-first-box{
+        text-align: left;
+        margin-top: 150px;
+    }
+    /*Seccion first (End)*/
+    
+    /*Seccion second(Start)*/
+    .second{
+        background-size:100% 100%;
+        background-position: center;
+        height: auto;
+    }
+    .hashtag{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: auto;
+        border-radius: 32px;
+    }
+    .about{
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+    }
+    .tittle-one-section-second{
+        margin-left: 0;
+    }
+    .texts{
+        text-align: left;
+    }
+    .section-second-about-text{
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+    /*Seccion second(End)*/
+    /*Seccion third (Start)*/
+    .third{
+        padding-top: 64px;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    .tittle-one-section-third{
+        margin-top: 24px;
+    }
+    .tittle-two-section-third{
+        margin-bottom: 16px;
+    }
+    .contact-box{
+        display: flex;
+        flex-direction: row;
+
+        margin: auto;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        width: auto;
+
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .contact-me{
+        text-align: center;
+    }
+    .whats-app{
+        padding: 0;
+        margin-left: 16px;
+    }
+    /*Seccion third (end)*/
+    /*Seccion foother (Start)*/
+    .message-footer p{
+        font-size: var(--size-three);
+    }
+    .footer-navegate a{
+        font-size: var(--size-three);
+    }
+    .footer-navegate-data a{
+        font-size: var(--size-three);
+
+    }
+    /*Seccion foother (end)*/
 }
