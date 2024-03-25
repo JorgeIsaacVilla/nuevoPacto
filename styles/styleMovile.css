@@ -14,9 +14,11 @@
 
     }
     .logo{
+        margin-left: 0;
             width: 160px;
             height: 50px;
         }
+
     .menu-items{
         background-image: url('../data/img/icons/menu-on.svg');
         background-size: contain;
@@ -24,6 +26,7 @@
         background-position: center;
         width: 40px;
         height: 40px;
+        margin-right: 0;
     }
     .menu-items-off{
         background-image: url('../data/img/icons/menu-off.svg');
@@ -305,8 +308,3 @@ backdrop-filter: blur(9px);
     }
     /*Seccion foother (end)*/
 }
-/*hacer max-width 280px verificar si es necesario
-    .box-historys{
-        height: 32vh; <-- ajusta para que se vea bien
-    }
-*/
