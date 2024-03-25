@@ -189,7 +189,7 @@ backdrop-filter: blur(9px);
     }
     .box-historys{
         flex-direction: column;
-        height: 40vh;
+        height: 45vh;
     }
     .social-box-fourth{
         margin-top: 32px;

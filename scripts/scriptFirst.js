@@ -22,7 +22,9 @@ video.addEventListener('ended', function() {
 }, false);
 
 //reproducir el video al tocar la pantalla
+/*
 document.addEventListener('touchstart', function() {
   // Reproducir el video
   video.play();
 });
+*/
