@@ -64,7 +64,7 @@ function renderEvents(arr) {
         boxEventDescriptions.appendChild(classEvent);
         boxEventDescriptions.appendChild(dataEvent);
     }    
-}
+};
 renderEvents(iglesiaEvents);
 /*Script para eventos de la iglesia (fin) */
 
@@ -76,5 +76,51 @@ const photos = document.querySelector('.photos');
                     <p>Lorem ipsum</p>
                 </div>
 */
+const miembrosIglesia = [];
 
+miembrosIglesia.push({
+    name:'Gloria Monrroy',
+    picture:'./data/img/fouth/miembros/miembro1.svg',
+    srcPicture:'',
+});
+miembrosIglesia.push({
+    name:'Jorge Villa',
+    picture:'./data/img/fouth/miembros/miembro2.svg',
+    srcPicture:'',
+});
+miembrosIglesia.push({
+    name:'Luis Florez',
+    picture:'./data/img/fouth/miembros/miembro3.svg',
+    srcPicture:'',
+});
+miembrosIglesia.push({
+    name:'Justin Pacini',
+    picture:'./data/img/fouth/miembros/miembro4.svg',
+    srcPicture:'',
+});
+//Contador de miembros de iglesia (inicio)
+miembrosIglesia.forEach((miembro, index)=>{
+    miembro.srcPicture = `miembro${index + 1}`;
+});
+//Contador de miembros de iglesia (fin)
+
+function renderMiembros(arr) {
+    for (miembros of arr){
+        const memberImage = document.createElement('div');
+        memberImage.classList.add('member-image');
+        photos.appendChild(memberImage);
+        /*Meter  memberImage dentro de photos*/
+
+        const imgMember = document.createElement('img');
+        imgMember.setAttribute('src', miembros.picture);
+        imgMember.setAttribute('alt', miembros.srcPicture);
+        const nameMember = document.createElement('p');
+        nameMember.innerText = miembros.name;
+        memberImage.appendChild(imgMember);
+        memberImage.appendChild(nameMember);
+        /*Meter  imgMember dentro de memberImage*/
+
+    }
+};
+renderMiembros(miembrosIglesia);
 /*Script para miembros de la iglesia (fin) */

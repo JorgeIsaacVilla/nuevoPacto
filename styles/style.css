@@ -318,6 +318,8 @@ header{
 }
 .photos{
     display: flex;
+    padding-bottom: 16px;
+    margin-bottom: 64px;
 }
 .member-image{
     margin: 0 16px;
@@ -365,6 +367,9 @@ header{
     justify-content: space-between;
     margin-top: 64px;
 }
+.section-fifth-tittles {
+    margin-bottom: 16px;
+}
 .section-fifth-tittles h3{
     font-size: var(--size-fourth);
 }
@@ -399,13 +404,14 @@ header{
 /*Seccion fifth (end)*/
 
 /*Seccion foother (Start)*/
-.footer-one{
-    width: 100%;
-    height: 35vh;
-
+footer{
     background-image: url('../data/img/footer/1.png');
     background-position: center;
     background-size: 100% 100%;
+}
+.footer-one{
+    width: 100%;
+    height: 35vh;
 
     display: flex;
     flex-direction: column;
@@ -440,6 +446,12 @@ header{
     font-size: var(--size-six);
     color: var(--color-one);
 }
+.footer-navegate-data{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--size-six);
+    color: var(--color-one);
+}
 .footer-two{
     display: flex;
     justify-content: space-between;
@@ -457,6 +469,7 @@ header{
     width: 20%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     color: var(--color-one);
     font-size: var(--size-three);

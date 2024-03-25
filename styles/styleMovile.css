@@ -91,6 +91,7 @@ backdrop-filter: blur(9px);
     .second{
         background-size:cover;
         background-position: center;
+        height: auto;
     }
     .hashtag{
         margin-top: 30px;
@@ -101,6 +102,7 @@ backdrop-filter: blur(9px);
     .about{
         flex-direction: column;
         justify-content: space-between;
+        height: auto;
     }
     .tittle-one-section-second{
         margin-left: 36px;
@@ -118,6 +120,7 @@ backdrop-filter: blur(9px);
     .third{
         background-size: cover;
         background-position: center;
+        height:auto;
     }
     .about img{
         order: 2;
@@ -156,6 +159,7 @@ backdrop-filter: blur(9px);
         background-position: center;
 
         justify-content:start;
+        height: auto;
         /*overflow: hidden;*/
     }
     .event-name p{
@@ -189,7 +193,9 @@ backdrop-filter: blur(9px);
     }
     .box-historys{
         flex-direction: column;
-        height: calc(30vh + 160px);
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
     }
     .social-box-fourth{
         margin-top: 32px;
@@ -197,7 +203,11 @@ backdrop-filter: blur(9px);
     }
     .photos{
         width: calc(100% + 100px);
+        margin-top: 8px;
+        margin-bottom: 8px;
         overflow: scroll;
+
+        justify-content:start;
     }
     .section-fourth-tittle-history{
         margin-top: 24px;
@@ -205,6 +215,95 @@ backdrop-filter: blur(9px);
         text-align: center;
     }
     /*Seccion fourth (end)*/
+    /*Seccion fifth (Start)*/
+    .fifth{
+        background-size: cover;
+        height: auto;
+    }
+    .section-fifth-tittles{
+        margin-bottom: 32px;
+    }
+    .section-fifth-text{ 
+        width: 80%;   
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .section-fifth-text p{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .contact-box-fifth{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .whats-app-fifth{
+        margin-top: 16px;
+        margin-left: 0;
+    }
+    .section-fifth-image{
+        width: 100%;
+        height: 16vh;
+    }
+    /*Seccion fifth (End)*/
+    /*Seccion foother (Start)*/
+    .footer-one{
+        height: auto;
+        padding-top: 32px;
+    }
+    .section-footer-top{
+        margin-top: 32px;
+        flex-direction: column;
+        width: 80%;
+    }
+    .message-footer {
+        width: 100%;
+        margin-bottom: 24px;
+        font-size: var(--size-three);
+    }
+    .message-footer p{
+        margin-bottom: 16px;
+    }
+    .footer-navegate{
+        justify-content: space-between;
+        display: flex;
+        flex-direction:row;
+        margin-bottom: 16px;
+    }
+    .footer-navegate a{
+        font-size: var(--size-three);
+    }
+    .footer-navegate-data{
+        margin-top: 32px;
+    }
+    .footer-navegate-data a{
+        font-size: var(--size-three);
+    }
+    .footer-navegate-data a{
+        width: 100%;
+        display: flex;
+        margin-bottom: 16px;
+    }
+    .footer-navegate-data a img{
+    margin-right: 16px;
+    }
+    .footer-two{
+        flex-direction: column-reverse;
+        width: 80%;
+    }
+    .box-footer-two{
+        margin-bottom: 16px;
+    }
+    .box-footer-two a{
+        margin-right: 8px;
+    }
+    .box-footer-two a img{
+        width: 25px;
+        height: 25px;
+    }
+    /*Seccion foother (end)*/
 }
 /*hacer max-width 280px verificar si es necesario
     .box-historys{

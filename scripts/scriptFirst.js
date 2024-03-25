@@ -1,3 +1,4 @@
+/*
 // Obtener el elemento de video
 const video = document.getElementById('myVideo');
 
@@ -15,6 +16,7 @@ if (isMobile) {
   video.src = videoURLDesktop;
   
 }
+*/
 // Reiniciar el video cuando haya terminado
 /*
 video.addEventListener('ended', function() {
