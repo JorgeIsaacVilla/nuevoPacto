@@ -16,10 +16,12 @@ if (isMobile) {
   
 }
 // Reiniciar el video cuando haya terminado
+/*
 video.addEventListener('ended', function() {
   this.currentTime = 0; // Reiniciar el tiempo de reproducción del video
   this.play(); // Volver a reproducir el video
 }, false);
+*/
 
 //reproducir el video al tocar la pantalla
 /*
