@@ -1,59 +1,24 @@
 @media (max-width: 600px){
 
 /*Seccion header (Start)*/
-    header{
-        justify-content: space-around;
-        border: none; 
-    }
     .header-menu{
         width: 80%;
-        height: 60px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
 
     }
     .logo{
         margin-left: 0;
-            width: 160px;
-            height: 50px;
         }
-
     .menu-items{
-        background-image: url('../data/img/icons/menu-on.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 40px;
-        height: 40px;
         margin-right: 0;
-    }
-    .menu-items-off{
-        background-image: url('../data/img/icons/menu-off.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 35px;
-        height: 35px;
-    }
-    
-    .list-menu li{
-        font-size: var(--size-six);
-    }
-    .display-none {
-        display: none;
     }
     /*Seccion header (end)*/
 
     /*Seccion first (Start)*/
     .first{
         background-image: url('../data/img/first/1m.png');
-        background-size:cover;
     }
     .tittle-section-first-one{
         font-size: var(--size-one-movile);
-        width: 80%;
-        margin: auto;
         margin-bottom: 32px;
     }
     .tittle-section-first-two{
@@ -61,153 +26,55 @@
     }
     .tittle-section-first-box{
         width: 90%;
-        text-align: center;
-        margin-top: 150px;
     }
     /*Seccion first (end)*/
 
     /*Seccion second(Start)*/
-    .second{
-        background-size:cover;
-        background-position: center;
-        height: auto;
-    }
     .hashtag{
-        margin-top: 30px;
-        margin-bottom: 30px;
         width: 100%;
         border-radius: 0;
     }
     .about{
         width: 80%;
         align-items: center;
-        flex-direction: column;
-        justify-content: space-between;
-        height: auto;
     }
     .tittle-two-section-second{
         font-size: var(--size-fourth-movile);
     }
-    .texts{
-        text-align: center;
-    }
-    .section-second-about-text{
-        width: 100%;
-        margin-top: 32px;
-        margin-bottom: 16px;
-    }
     /*Seccion second(End)*/
 
     /*Seccion third (Start)*/
-    .third{
-        background-size: cover;
-        background-position: center;
-        height:auto;
-    }
-    .section-third-vision-text{
-        width: 100%;
-        margin-left: 0;
-    }
     .about img{
         width: 35vh;
-        order: 2;
-    }
-    .tittle-one-section-third{
-        margin-left: 0;
-        margin-top: 24px;
     }
     .tittle-two-section-third{
-        margin-left: 0;
-        margin-bottom: 16px;
         font-size: var(--size-fourth-movile);
     }
     .contact-box{
-        display: flex;
         flex-direction: column;
-
-        margin: auto;
-        margin-top: 24px;
-        margin-bottom: 24px;
-        width: auto;
         max-width: 240px;
         
     }
     .contact-me{
         margin-right: 0;
-        margin-left: 0;
         margin-bottom: 16px;
-        text-align: center;
-    }
-    .whats-app{
-        margin-left: 0px;
     }
     /*Seccion third (end)*/
 
     /*Seccion fourth (Start)*/
-    
-    .fourth{
-        background-size:cover;
-        background-position: center;
-
-        justify-content:start;
-        height: auto;
-        /*overflow: hidden;*/
-    }
     .tittles-two-section-fourth{
         font-size: var(--size-fourth-movile);
     }
-    .event-name p{
-        width: auto;
-    }
-    .tittles-section-fourth{
-        margin-top: 16px;
-        flex-direction: column;
-    }
-    .box-events{
-        margin-bottom: 16px;
-        width: 80%;
-        height: 40vh;
-    }
-    .box-events-descriptions{
-        flex-direction: column;
-    }
-    .box-data-event{
-        flex-direction: column;
-    }
     .class-event{
         width: auto;
-        margin-left: 34px;
-        margin-top: 8px;
     }
     .date-event{
         margin-left: 0;
         text-align: center;
     }
-    .history p{
-        text-align: center;
-    }
-    .box-historys{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 60vh;
-    }
-    .social-box-fourth{
-        margin-top: 32px;
-        margin-bottom: 32px;
-    }
     .photos{
         width: 180%;
-        margin-top: 8px;
-        margin-bottom: 8px;
-        overflow: scroll;
-
         justify-content:start;
-    }
-    .section-fourth-tittle-history{
-        margin-top: 24px;
-        margin-bottom: 24px;
-        text-align: center;
     }
     /*Seccion fourth (end)*/
     /*Seccion fifth (Start)*/
@@ -216,61 +83,21 @@
         top: 490vh; /* Posición vertical centrada */
         width: 500px;
     }
-    .fifth{
-        background-size: cover;
-        height: auto;
-    }
-    .section-fifth-tittles{
-        margin-bottom: 32px;
-    }
     .section-fifth-tittles h2{
         text-align: center;
         font-size: var(--size-fourth-movile);
     }
-    .section-fifth-text{
-        z-index: 1; 
-        width: 80%;   
-        flex-direction: column;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .section-fifth-text p{
-        width: 100%;
-        text-align: center;
-        margin-bottom: 8px;
-    }
     .contact-box-fifth{
-        z-index: 1;
-        display: flex;
         flex-direction: column;
-        text-align: center;
     }
     .whats-app-fifth{
         margin-top: 16px;
         margin-left: 0;
     }
-    .section-fifth-image{
-        width: 100%;
-        height: 16vh;
-    }
     /*Seccion fifth (End)*/
     /*Seccion foother (Start)*/
-    .footer-one{
-        height: auto;
-        padding-top: 32px;
-    }
     .section-footer-top{
-        margin-top: 32px;
-        flex-direction: column;
         width: 80%;
-    }
-    .message-footer {
-        width: 100%;
-        margin-bottom: 24px;
-        font-size: var(--size-three);
-    }
-    .message-footer p{
-        margin-bottom: 16px;
     }
     .footer-navegate{
         justify-content: space-between;
@@ -278,36 +105,14 @@
         flex-direction:row;
         margin-bottom: 16px;
     }
-    .footer-navegate a{
-        font-size: var(--size-three);
-    }
     .footer-navegate-data{
         width: 90%;
-        margin-top: 32px;
     }
     .footer-navegate-data a{
         font-size: var(--size-three);
-        width: 100%;
-        display: flex;
-        margin-bottom: 16px;
-    }
-    .footer-navegate-data a img{
-    margin-right: 16px;
     }
     .footer-two{
-        flex-direction: column-reverse;
         width: 80%;
-    }
-    .box-footer-two{
-        justify-content:left;
-        margin-bottom: 16px;
-    }
-    .box-footer-two a{
-        margin-right: 8px;
-    }
-    .box-footer-two a img{
-        width: 25px;
-        height: 25px;
     }
     /*Seccion foother (end)*/
 }

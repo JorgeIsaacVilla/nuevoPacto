@@ -1,7 +1,10 @@
 @media (max-width: 768px){
+    .display-none {
+        display: none;
+    }
 /*Seccion header (Start)*/
 header{
-    justify-content: space-between;
+    justify-content: space-around;
     border: none;
 }
 .header-menu{
@@ -65,9 +68,6 @@ backdrop-filter: blur(9px);
 }
 .list-menu li{
     font-size: var(--size-six);
-}
-.display-none {
-    display: none;
 }
 /*Seccion header (end)*/
 
