@@ -67,22 +67,22 @@ const photos = document.querySelector('.photos');
 const miembrosIglesia = [];
 
 miembrosIglesia.push({
-    name:'Gloria Monroy',
+    name:'Gloria M.',
     picture:'./data/img/fouth/miembros/miembro1.svg',
     srcPicture:'',
 });
 miembrosIglesia.push({
-    name:'Jorge Villa',
+    name:'Jorge V.',
     picture:'./data/img/fouth/miembros/miembro2.svg',
     srcPicture:'',
 });
 miembrosIglesia.push({
-    name:'Luis Florez',
+    name:'Luis F.',
     picture:'./data/img/fouth/miembros/miembro3.svg',
     srcPicture:'',
 });
 miembrosIglesia.push({
-    name:'Justin Pacini',
+    name:'Justin P.',
     picture:'./data/img/fouth/miembros/miembro4.svg',
     srcPicture:'',
 });
