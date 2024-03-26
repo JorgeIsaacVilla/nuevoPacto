@@ -45,7 +45,7 @@ header{
     bottom: 0;
 
     width: 98%;
-    height: 100vh;
+    height: 40vh;
     z-index: 100;
 
 
@@ -59,7 +59,9 @@ backdrop-filter: blur(9px);
     justify-content: space-between;
     padding-top: 34px;
     padding-left: 34px;
-    padding-right: 34px;        
+    padding-right: 34px;  
+    align-items:normal;
+    padding-bottom: 60vh;      
 }
 .list-menu li{
     font-size: var(--size-six);
@@ -233,15 +235,21 @@ backdrop-filter: blur(9px);
     }
     /*Seccion fourth (end)*/
      /*Seccion fifth (Start)*/
+     .hand{
+        left: -1vw; /* Posición horizontal centrada */
+        top: 470vh; /* Posición vertical centrada */
+    }
      .fifth{
         background-size: cover;
         height: auto;
     }
     .section-fifth-tittles{
+        text-align: center;
         margin: auto;
         margin-bottom: 32px;
     }
     .section-fifth-text{ 
+        z-index: 1;
         width: 80%;   
         flex-direction: column;
         padding-top: 0;
@@ -253,6 +261,7 @@ backdrop-filter: blur(9px);
         margin-bottom: 8px;
     }
     .contact-box-fifth{
+        z-index: 1;
         display: flex;
         justify-content: center;
         align-items: center;

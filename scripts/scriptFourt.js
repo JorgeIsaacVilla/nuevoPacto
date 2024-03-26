@@ -18,19 +18,7 @@ iglesiaEvents.push({
     altImg:'Calendario Reunion de mujeres.',
     activity:'Reunión de mujeres',
     tittleEvent:'Heridas Sanadoras',
-    date:'marzo 30, 8:00 am',
-});
-iglesiaEvents.push({
-    altImg:'Calendario Reunion de mujeres.',
-    activity:'Reunión de mujeres',
-    tittleEvent:'Heridas Sanadoras',
-    date:'marzo 30, 8:00 am',
-});
-iglesiaEvents.push({
-    altImg:'Calendario Reunion de mujeres.',
-    activity:'Reunión de mujeres',
-    tittleEvent:'Heridas Sanadoras',
-    date:'marzo 30, 8:00 am',
+    date:'6 de abril, 8:00 am',
 });
 
 function renderEvents(arr) {
@@ -79,7 +67,7 @@ const photos = document.querySelector('.photos');
 const miembrosIglesia = [];
 
 miembrosIglesia.push({
-    name:'Gloria Monrroy',
+    name:'Gloria Monroy',
     picture:'./data/img/fouth/miembros/miembro1.svg',
     srcPicture:'',
 });
