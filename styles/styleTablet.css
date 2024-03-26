@@ -89,42 +89,42 @@ backdrop-filter: blur(9px);
     .tittle-section-first-box{
         text-align: center;
         
-        margin-top: 150px;
+       /* margin-top: 150px;*/
     }
     /*Seccion first (end)*/
     
     /*Seccion second(Start)*/
     .second{
         background-size:cover;
-        background-position: center;
-        height: auto;
+        /*background-position: center;
+        height: auto;*/
     }
     .hashtag{
-        margin-top: 30px;
+        /*margin-top: 30px;
         margin-bottom: 30px;
+        border-radius: 32px;*/
         width: 80%;
-        border-radius: 32px;
         justify-content: center;
     }
     .about{
         flex-direction: column;
-        justify-content: space-between;
-        height: auto;
+        /*justify-content: space-between;
+        height: auto;*/
     }
     .texts{
         text-align: center;
     }
     .section-second-about-text{
         width: 100%;
-        margin-top: 32px;
-        margin-bottom: 16px;
+        /*margin-top: 32px;
+        margin-bottom: 16px;*/
     }
     /*Seccion second(End)*/
     
     /*Seccion third (Start)*/
     .third{
         background-size: cover;
-        background-position: center;
+       /* background-position: center;*/
         height:auto;
 
         padding-top: 32px;
@@ -136,14 +136,14 @@ backdrop-filter: blur(9px);
     .tittle-one-section-third{
         
         margin-left: 0;
-        margin-top: 24px;
+        /*margin-top: 24px;*/
     }
     .tittle-two-section-third{
         margin-left: 0;
-        margin-bottom: 16px;
+        /*margin-bottom: 16px;*/
     }
     .contact-box{
-        display: flex;
+        /*display: flex;
         flex-direction:row;
         justify-content: center;
         align-items: center;
@@ -151,7 +151,7 @@ backdrop-filter: blur(9px);
         margin: auto;
         margin-top: 24px;
         margin-bottom: 24px;
-        width: auto;
+        width: auto;*/
         max-width: 5000px;
         
     }
@@ -163,7 +163,7 @@ backdrop-filter: blur(9px);
         margin-left: 0;
         margin-bottom: 0;
         margin-right: 16px;
-        text-align: center;
+       /*text-align: center;*/
     }
     .whats-app{
         margin-left: 0px;

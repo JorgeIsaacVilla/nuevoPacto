@@ -3,7 +3,6 @@
 /*Seccion header (Start)*/
     .header-menu{
         width: 80%;
-
     }
     .logo{
         margin-left: 0;
@@ -52,8 +51,7 @@
     }
     .contact-box{
         flex-direction: column;
-        max-width: 240px;
-        
+        max-width: 240px; 
     }
     .contact-me{
         margin-right: 0;
