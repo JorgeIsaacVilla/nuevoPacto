@@ -16,16 +16,16 @@
     --border-color-three:#6363639a;   
 
     --border-radius-button:4px;
-    --padding-buttons:8px 16px;
-    --padding-buttons-two:8px 30px;
+    --padding-buttons:10px 32px;
+    /*--padding-buttons-two:8px 30px;*/
 
 
     /*mobile  (start)*/
     --size-one-movile:2.8rem;
     --size-two-movile:5.2rem;
-    /*--size-three-movile:1.5rem;
-    --size-fourth-movile:3.4rem;
-    --size-five-movile:5.8rem;
+    /*--size-three-movile:1.5rem;*/
+    --size-fourth-movile:3.2rem;
+    /*--size-five-movile:5.8rem;
     --size-six-movile:1.8rem;*/
     /*mobile  (end)*/
 

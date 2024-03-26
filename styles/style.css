@@ -40,6 +40,7 @@ header{
 
     border-bottom: 0.3px solid var(--color-fourth);
     padding-top: 34px;
+    padding-bottom: 20px;
     padding-left: 16px;
     padding-right: 16px;
 
@@ -55,6 +56,7 @@ header{
 }
 .list-menu{
     display: flex;
+    align-items: center;
 }
 .list-menu li{
     color: var(--color-one);
@@ -83,11 +85,13 @@ header{
 .tittle-section-first-one{
     font-size: var(--size-one);
     color: var(--color-one);
-    margin-left: 64px;
+    text-align: center;
 }
 .tittle-section-first-two{
     font-size: var(--size-two);
     color: var(--color-two);
+    font-family: tan-nimbus;
+    text-align: center;
 }
 
 /*Seccion first (end)*/
@@ -111,9 +115,9 @@ header{
     justify-content: space-around;
     padding: 10px;
 
-    width: 60%;
+    width: 40%;
     height: auto;
-    margin-top: 116px;
+    margin-top: 20px;
     margin-bottom: 64px;
 
     border: solid 0.5px;
@@ -128,8 +132,9 @@ header{
 }
 .about{
     display: flex;
-    width: 70%;
+    width: 60%;
     height: 100vh;
+    
 }
 .about img{
     /*width: 600px;*/
@@ -138,13 +143,15 @@ header{
 .tittle-one-section-second{
     font-size: var(--size-fourth);
     color: var(--color-three);
+    margin-top: 13vh;
 }
 .tittle-two-section-second{
     font-size: var(--size-five);
     color: var(--color-three);
+    font-family: tan-nimbus;
 }
 .section-second-about-text{
-    width: 50%;
+    width: 80%;
     color: var(--color-three);
     font-size: var(--size-six);
 }
@@ -169,21 +176,23 @@ header{
     font-size: var(--size-five);
     color: var(--color-two);
     margin-left: 20%;
+    margin-bottom: 32px;
+    font-family: tan-nimbus;
 }
 .section-third-vision-text{
-    width: 60%;
+    width: 80%;
     color: var(--color-one);
     font-size: var(--size-six);
     margin-left: 20%;
 }
 .contact-box{
-    margin-top: 32px;
+    margin-top: 64px;
     margin-left: 20%;
 }
 .contact-me{
     background: var(--color-two);
     font-size: var(--size-three);
-    color: var(--color-three);
+    color: var(--color-three) !important;
     padding: var(--padding-buttons);
 
     border-radius: var(--border-radius-button);
@@ -224,6 +233,7 @@ header{
 .tittles-two-section-fourth{
     font-size: var(--size-five);
     color: var(--color-two);
+    font-family: tan-nimbus;
 
     display: flex;
     justify-content: center;
@@ -325,7 +335,7 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    width: 70%;
+    width: 50%;
     height: 30vh;
 }
 .section-fourth-tittle-history{
@@ -342,7 +352,7 @@ header{
 .social-box-fourth{
     margin-top: 16px;
     display: flex;
-    justify-content: center;
+    justify-content: lef;
     align-items: center;
     margin-bottom: 32px;
 }
@@ -400,7 +410,7 @@ header{
     align-items: center;
 }
 .section-fifth-text{
-    width: 70%;
+    width: 50%;
     padding: 64px 0;
     color: var(--color-three);
 
@@ -416,10 +426,11 @@ header{
 }
 .section-fifth-tittles h2{
     font-size: var(--size-five);
+    font-family: tan-nimbus;
 }
 .section-fifth-text p{
     font-size: var(--size-six);
-    width: 35%;
+    width: 52%;
 }
 .contact-box-fifth{
     margin-top: 12px;
@@ -429,7 +440,7 @@ header{
     background: var(--color-three);
     font-size: var(--size-three);
     color: var(--color-two);
-    padding: var(--padding-buttons-two);
+    padding: var(--padding-buttons);
 
     border-radius: var(--border-radius-button);
 }

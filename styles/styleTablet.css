@@ -109,9 +109,6 @@ backdrop-filter: blur(9px);
         justify-content: space-between;
         height: auto;
     }
-    .tittle-one-section-second{
-        margin-left: 36px;
-    }
     .texts{
         text-align: center;
     }
@@ -131,13 +128,16 @@ backdrop-filter: blur(9px);
         padding-top: 32px;
     }
     .about img{
+        width: 50vh;
         order: 2;
     }
     .tittle-one-section-third{
-        margin-left: 36px;
+        
+        margin-left: 0;
         margin-top: 24px;
     }
     .tittle-two-section-third{
+        margin-left: 0;
         margin-bottom: 16px;
     }
     .contact-box{
