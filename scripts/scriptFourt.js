@@ -21,7 +21,7 @@ iglesiaEvents.push({
 });
 iglesiaEvents.push({
     activity:'Escuela dominical',
-    tittleEvent:'Heridas Sanadoras',
+    tittleEvent:'El divorcio part-2',
     date:'Todos los domingos, 9:30am Presencial',
 });
 iglesiaEvents.push({
