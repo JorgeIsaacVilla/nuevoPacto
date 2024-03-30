@@ -114,6 +114,7 @@ header{
     overflow: hidden;
 
     padding-top: 64px;
+    height: auto;
 }
 .hashtag{
     display: flex;
@@ -131,6 +132,7 @@ header{
 
     color: var(--color-three);
     font-size: var(--size-six);
+    overflow: hidden;
 }
 .text_hashtag{
     margin:0 16px 0 16px;
@@ -158,7 +160,7 @@ header{
 .section-second-about-text{
     width: 80%;
     color: var(--color-three);
-    font-size: var(--size-six);
+    font-size: var(--size-three);
 }
 /*Seccion second(end)*/
 
@@ -185,10 +187,12 @@ header{
     font-family: tan-nimbus;
 }
 .section-third-vision-text{
-    width: 80%;
+    width: 90%;
     color: var(--color-one);
-    font-size: var(--size-six);
+    font-size: var(--size-three);
     margin-left: 20%;
+
+    position: relative;
 }
 .contact-box{
     margin-top: 64px;
@@ -221,6 +225,8 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding-bottom: 10px;
 }
 .tittles-section-fourth{
     padding-top: 64px;
@@ -267,6 +273,7 @@ header{
     align-items: center;
 
     overflow: scroll;
+    height: auto;
 }
 
 /* Estilos para el scroll vertical */
@@ -423,6 +430,8 @@ header{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+
+    height: auto;
 }
 .section-fifth-text{
     width: 50%;
@@ -490,6 +499,7 @@ footer{
 }
 .message-footer {
     width: 30%;
+    z-index: 1;
 }
 .message-footer p{
     color: var(--color-one);

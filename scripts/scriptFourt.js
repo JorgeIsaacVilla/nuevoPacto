@@ -15,10 +15,19 @@ const boxEvent = document.querySelector('.box-events');
 const iglesiaEvents = [];
 
 iglesiaEvents.push({
-    altImg:'Calendario Reunion de mujeres.',
     activity:'Reunión de mujeres',
     tittleEvent:'Heridas Sanadoras',
-    date:'6 de abril, 8:00 am',
+    date:'6 de abril, 8:00am',
+});
+iglesiaEvents.push({
+    activity:'Escuela dominical',
+    tittleEvent:'Heridas Sanadoras',
+    date:'Todos los domingos, 9:30am Presencial',
+});
+iglesiaEvents.push({
+    activity:'Interseción',
+    tittleEvent:'Interseción por la familia',
+    date:'Todos los miercoles, 8:30pm Virtual',
 });
 
 function renderEvents(arr) {
@@ -37,7 +46,7 @@ function renderEvents(arr) {
 
         const imageEvent = document.createElement('img');
         imageEvent.setAttribute('src', './data/img/icons/caleddary.svg');
-        imageEvent.setAttribute('alt', events.altImg);
+        imageEvent.setAttribute('alt', 'Imagen de calendario de eventos.');
         const textEvent = document.createElement('p');
         textEvent.innerText = events.activity;
         eventName.appendChild(imageEvent);
