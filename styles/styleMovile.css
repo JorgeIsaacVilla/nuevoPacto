@@ -81,7 +81,7 @@
     /*Seccion fifth (Start)*/
     .hand{
         left: -10vw; /* Posición horizontal centrada */
-        top: 490vh; /* Posición vertical centrada */
+        top: 50%; /* Posición vertical centrada */
         width: 500px;
     }
     .section-fifth-tittles h2{

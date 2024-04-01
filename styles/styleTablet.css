@@ -236,8 +236,8 @@ backdrop-filter: blur(9px);
     /*Seccion fourth (end)*/
      /*Seccion fifth (Start)*/
      .hand{
-        left: -1vw; /* Posición horizontal centrada */
-        top: 470vh; /* Posición vertical centrada */
+        /*left: -1vw;  Posición horizontal centrada */
+        /*top: 470vh;  Posición vertical centrada */
     }
      .fifth{
         background-size: cover;

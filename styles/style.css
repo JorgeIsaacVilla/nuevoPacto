@@ -422,8 +422,10 @@ header{
 /*Seccion fifth (Start)*/
 .hand{
     position: absolute;
-    left: 5vw; /* Posición horizontal centrada */
-    top: 420vh; /* Posición vertical centrada */
+    /*left: 5vw;  Posición horizontal centrada */
+    /*top: 420vh;  Posición vertical centrada */
+    top: 1%;
+    left: 3%;
     transform: translate(-50%, -50%); /* Centrar el objeto exactamente */
     width: 800px;;
 }
@@ -439,6 +441,8 @@ header{
     align-items: center;
 
     height: auto;
+
+    position: relative;
 }
 .section-fifth-text{
     width: 50%;
