@@ -271,7 +271,7 @@ header{
 
     /*Cuando pongo estos comandos al poner la versión en la PC sale bien y en la phone sale mal y visebersa(inicio)*/
     /*justify-content: space-around;*/
-    justify-content: center;
+    /*justify-content: center;*/
     /*Cuando pongo estos comandos al poner la versión en la PC sale bien y en la phone sale mal y visebersa(fin)*/
 
     flex-direction: column;
