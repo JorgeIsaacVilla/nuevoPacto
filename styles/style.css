@@ -5,6 +5,9 @@
     font-family: gotam-light;
     font-size: 62.5%;
 }
+    .display-none {
+        display: none;
+    }
 html{
     scroll-behavior: smooth;
 }
@@ -140,7 +143,11 @@ header{
 .about{
     display: flex;
     width: 60%;
-    height: 100vh;
+
+    /*Se agregó nuevas instrucciones css*/
+   /*height: 100vh;*/
+   justify-content: center;
+   align-items: center;
     
 }
 .about img{
@@ -150,7 +157,7 @@ header{
 .tittle-one-section-second{
     font-size: var(--size-fourth);
     color: var(--color-three);
-    margin-top: 13vh;
+    /*margin-top: 13vh;*/
 }
 .tittle-two-section-second{
     font-size: var(--size-five);
@@ -172,6 +179,8 @@ header{
     background-image: url('../data/img/three/1.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
+    background-color: white;
 }
 .tittle-one-section-third{
     margin-top: 24vh;

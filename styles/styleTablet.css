@@ -1,9 +1,9 @@
-@media (max-width: 768px){
-    .display-none {
+@media (max-width: 1300px){
+  /*  .display-none {
         display: none;
-    }
+    }*/
 /*Seccion header (Start)*/
-header{
+/*header{
     justify-content: space-around;
     border: none;
 }
@@ -68,7 +68,7 @@ backdrop-filter: blur(9px);
 }
 .list-menu li{
     font-size: var(--size-six);
-}
+}*/
 /*Seccion header (end)*/
 
     /*Seccion first (Start)*/
