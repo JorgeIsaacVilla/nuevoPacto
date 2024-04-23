@@ -1,7 +1,7 @@
 @media (max-width: 600px){
 
 /*Seccion header (Start)*/
-    .header-menu{
+    /*.header-menu{
         width: 80%;
     }
     .logo{
@@ -9,7 +9,7 @@
         }
     .menu-items{
         margin-right: 0;
-    }
+    }*/
     /*Seccion header (end)*/
 
     /*Seccion first (Start)*/

@@ -21,13 +21,13 @@ iglesiaEvents.push({
 });
 iglesiaEvents.push({
     activity:'Escuela dominical',
-    tittleEvent:'El divorcio part-2',
-    date:'Todos los domingos, 9:30am Presencial',
+    tittleEvent:'Todos los domingos',
+    date:'9:30am Presencial',
 });
 iglesiaEvents.push({
     activity:'Interseción',
-    tittleEvent:'Interseción por la familia',
-    date:'Todos los miercoles, 8:30pm Virtual',
+    tittleEvent:'Todos los miércoles',
+    date:'8:30pm Virtual',
 });
 
 function renderEvents(arr) {

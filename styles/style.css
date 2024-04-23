@@ -40,7 +40,7 @@ header{
     align-items: center;
     
     background: rgba(255, 255, 255, 0.76);
-    border-radius: 16px;
+    /*border-radius: 16px*/;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -49,8 +49,8 @@ header{
     border-bottom: 0.3px solid var(--color-fourth);
     padding-top: 34px;
     padding-bottom: 20px;
-    padding-left: 16px;
-    padding-right: 16px;
+    /*padding-left: 16px;
+    padding-right: 16px;*/
 
     position: fixed;
     z-index: 100;
@@ -496,6 +496,8 @@ header{
 }
 .section-fifth-image{
     width: 60%;
+    min-width: 240px;
+    min-height: 180px;
 }
 /*Seccion fifth (end)*/
 
