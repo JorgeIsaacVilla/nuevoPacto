@@ -322,6 +322,7 @@ header{
 }
 .event-name p{
     width: 210px;
+    font-weight: bold;
 }
 .date-event{
     text-align: right;

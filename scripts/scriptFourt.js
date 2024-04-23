@@ -17,17 +17,17 @@ const iglesiaEvents = [];
 iglesiaEvents.push({
     activity:'Reunión de mujeres',
     tittleEvent:'Heridas Sanadoras',
-    date:'6 de abril, 8:00am',
+    date:'Próximamente',
 });
 iglesiaEvents.push({
     activity:'Escuela dominical',
     tittleEvent:'Todos los domingos',
-    date:'9:30am Presencial',
+    date:'9:30 AM Presencial',
 });
 iglesiaEvents.push({
     activity:'Interseción',
     tittleEvent:'Todos los miércoles',
-    date:'8:30pm Virtual',
+    date:'8:30 PM Virtual',
 });
 
 function renderEvents(arr) {
