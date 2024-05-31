@@ -25,7 +25,7 @@ iglesiaEvents.push({
     date:'9:30 AM Presencial',
 });
 iglesiaEvents.push({
-    activity:'Interseción',
+    activity:'Intercesión',
     tittleEvent:'Todos los miércoles',
     date:'8:30 PM Virtual',
 });
